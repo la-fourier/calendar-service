@@ -17,3 +17,4 @@ jobs:
       run: |
         # Hier den Befehl einfügen, um dein Programm mit dem Issue auszuführen
         echo "Running program for issue ${{ github.event.issue.number }}"
+        python server.py
