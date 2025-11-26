@@ -1,0 +1,59 @@
+    Blocking waiting for file lock on package cache
+   0.175781300s  INFO prepare_target{force=false package_id=client_backend v0.1.0 (C:\Users\LoosM\Desktop\calendar-service\client_backend) target="client_backend"}: cargo::core::compiler::fingerprint: fingerprint error for client_backend v0.1.0 (C:\Users\LoosM\Desktop\calendar-service\client_backend)/Check { test: false }/TargetInner { name: "client_backend", doc: true, ..: with_path("C:\\Users\\LoosM\\Desktop\\calendar-service\\client_backend\\src\\main.rs", Edition2021) }
+   0.176202000s  INFO prepare_target{force=false package_id=client_backend v0.1.0 (C:\Users\LoosM\Desktop\calendar-service\client_backend) target="client_backend"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\LoosM\Desktop\calendar-service\client_backend\target\debug\.fingerprint\client_backend-0287b9f33dded3c0\bin-client_backend`
+
+Caused by:
+    Das System kann die angegebene Datei nicht finden. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.232020700s  INFO prepare_target{force=false package_id=client_backend v0.1.0 (C:\Users\LoosM\Desktop\calendar-service\client_backend) target="client_backend"}: cargo::core::compiler::fingerprint: fingerprint error for client_backend v0.1.0 (C:\Users\LoosM\Desktop\calendar-service\client_backend)/Check { test: true }/TargetInner { name: "client_backend", doc: true, ..: with_path("C:\\Users\\LoosM\\Desktop\\calendar-service\\client_backend\\src\\main.rs", Edition2021) }
+   0.232088300s  INFO prepare_target{force=false package_id=client_backend v0.1.0 (C:\Users\LoosM\Desktop\calendar-service\client_backend) target="client_backend"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\LoosM\Desktop\calendar-service\client_backend\target\debug\.fingerprint\client_backend-3d8f945b59f0db51\test-bin-client_backend`
+
+Caused by:
+    Das System kann die angegebene Datei nicht finden. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking client_backend v0.1.0 (C:\Users\LoosM\Desktop\calendar-service\client_backend)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.87s
